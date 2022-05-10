@@ -1,0 +1,71 @@
+/* GERAL */
+body {
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  background: linear-gradient(#2c0363, #6e0af5, #9f5dfa) fixed;
+}
+
+/* CLASSES */
+.container {
+  max-width: 1100%;
+  margin: 0 100px;
+  display: flex;
+}
+
+.lista_footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* IDs */
+#profile {
+  max-width: 25%;
+  border-radius: 50%;
+  filter: hue-rotate(360deg);
+  -webkit-filter: hue-rotate(360deg);
+  -moz-filter: hue-rotate(360deg);
+  -webkit-transition: all 0.7s linear;
+  -moz-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+}
+
+#profile:hover {
+  filter: hue-rotate(0deg);
+  -webkit-filter: hue-rotate(0deg);
+  -moz-filter: hue-rotate(0deg);
+}
+
+/* TAG's */
+p {
+  text-align: justify;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #13022b;
+}
+
+a {
+  text-decoration: none;
+  color: #08040c;
+  transition: transform 0.7s ease;
+}
+
+a:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+li {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #9726ff;
+  text-shadow: #d8c9ed 0.03em 0.03em 0.05em;
+}
+
+span {
+  color: #9726ff;
+  text-shadow: #d8c9ed 0.03em 0.03em 0.05em;
+}
